@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpita-Student</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(29, 68, 68);
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color:rgb(97, 166, 166);
+        }
+        nav ul{
+            display: flex;
+            justify-content:center ;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(202, 49, 177);
+            font-size: 1.01rem;
+        }
+        main hr{
+            border: 0;
+            background: rgb(105, 244, 244);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin:100px 0;
+            align-items: center;
+        }
+        .firstsection >div{
+            width: 30%;
+        }
+        .leftsection{
+            font-size: 2rem;
+        }
+        .rightsection img{
+            width: 80%;
+        }
+        .purple{
+            color: rgb(175, 135, 212);
+        }
+        .textgray{
+            color: rgb(209, 208, 208);;
+        }
+        #element{
+            color: rgb(175, 135, 212);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height:150vh;
+        }
+        .secondsection h1{
+            margin-top: 45px;
+            font-size: 2.0rem;
+        }
+        .secondsection .box{
+            background:rgb(105, 244, 244);
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height:65px;
+            width: 1px;
+            background-color: rgb(105, 244, 244);
+            margin: 0 115px;
+        }
+        .verticaltitle{
+            position: relative;
+            top:75px;
+            width: 150px;
+            font-size: 17px;
+        }
+        .verticaldesc{
+            position: relative;
+            top:86px;
+            color: rgb(211, 205, 205);
+            width: 150px;
+            font-size: 15px;
+        }
+        .secondsection .edu{
+            margin-top: 249px;
+        }
+        .edu ul{
+            margin-top:20px ;
+        }
+        .secondsection .skill{
+             margin-top: 70px;
+        }
+        .skill ul{
+            margin-top: 20px;
+        }
+        .secondsection .lang{
+            margin-top: 90px;
+        }
+        .lang ul{
+            margin-top: 20px;
+        }
+        footer{
+            background-color:  rgb(40, 104, 104);
+            height: 235px;
+        }
+        .footer .footerfirst{
+            margin-top: 30px;;
+        }
+        .footerfirst ul{
+            margin-top: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Arpita's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+             <div class="leftsection">
+                Hello, I am <span class="purple">Arpita Mondal</span> 
+                <div>and I am a second year BCA student and a</div>
+                <span id="element"></span>
+             </div>
+             <div class="rightsection">
+                <img src="img1.jpg" alt="">
+             </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgray">What I have done so far>>></span>
+            <h1>Certifications</h1>
+            <div class="box">
+                <div class="vertical">
+
+                    <div class="verticaltitle">
+                        Python Certificate
+                    </div>
+
+                    <div class="verticaldesc">Python certificate issued by NICT Computer Education(ISO 9001:2015 Certified Organization)
+                    </div>
+                </div>
+                <div class="vertical">
+            
+
+                    <div class="verticaltitle">
+                          Retail Certificate
+                    </div>
+
+                    <div class="verticaldesc">Retail Management Basic Certification Course by  ISME
+                    </div>
+                </div>
+                <div class="vertical">
+
+
+                    <div class="verticaltitle">
+                        Intern at Acmegrade
+                    </div>
+
+                    <div class="verticaldesc">Worked as an Intern at Acmegrade in Cybersecurity
+                    </div>
+                </div>
+                <div class="vertical">
+
+                    <div class="verticaltitle">
+                        Brand Ambassador
+                    </div>
+
+                    <div class="verticaldesc">Certified Brand Ambassador at ISME
+                    </div>
+                </div>
+            </div>
+            <div class="edu">
+                <h1>Educational Qualification</h1>
+                <ul>Certificate of higher education: PCB,2023 from Prabharani Public School,Murshidabad</ul>
+                <ul>Currently pursuing BCA(2023-2026) from ISME, Bangalore</ul>
+            </div>
+            <div class="skill">
+                <h1>Skills</h1>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Front-End devlopment</li>
+                    <li>Cybersecurity basics</li>
+                    <li>Responsive web design</li>
+                </ul>
+            </div>
+            <div class="lang">
+                <h1>Languge Proficiency</h1>
+                <ul>
+                    <li>English(Proficient)</li>
+                    <li>Hindi(Proficient)</li>
+                    <li>Bengali(Proficient)</li>  
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footerfirst" style="text-align: center;">
+                <h1>Contact details</h1>
+                <ul>Phone no: 9883118486</ul>
+                <ul>E-mail: arpitamondal5972@gmail.com</ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>aspiring    Web Devloper</i>', '  <i>Code enthusiast</i>','<i>and a Passionate learner</i>'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
